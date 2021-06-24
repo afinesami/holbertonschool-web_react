@@ -1,0 +1,25 @@
+{
+  "name": "task_1",
+  "version": "1.0.0",
+  "description": "Task 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "image-webpack-loader": "^7.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20"
+  }
+}
