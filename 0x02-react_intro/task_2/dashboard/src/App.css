@@ -1,0 +1,52 @@
+:root {
+	--hred: #e1484c;
+  }
+
+  body {
+	max-width: 90%;
+	margin: 0 auto;
+  }
+
+  div {
+	padding: 2px 8px;
+  }
+
+  .App {
+	position: relative;
+	min-height: 100vh;
+  }
+
+  .App-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	border-bottom: 3px solid var(--hred);
+  }
+  .App-footer p {
+	text-align: center;
+	border-top: 3px solid var(--hred);
+	padding: 17px 0;
+  }
+  .App-footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+  }
+
+.App-header h1 {
+	margin: auto auto auto 0;
+	font-weight: bold;
+	color: var(--hred);
+  }
+
+  .App-body p {
+	font-weight: bold;
+	margin: 47px 0 0 31px;
+  }
+  .App-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	border-bottom: 3px solid var(--hred);
+  }
+
