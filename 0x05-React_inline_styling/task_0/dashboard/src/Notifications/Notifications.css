@@ -1,0 +1,20 @@
+
+.Notifications {
+	border: 3px solid var(--hred);
+	padding: 6px 12px;
+	position: relative;
+	margin-top: 12px;
+
+}
+
+li[data-priority-type="default"] {
+	color: blue;
+}
+
+li[data-priority-type="urgent"] {
+	color: red;
+}
+.menuItem {
+	text-align: right;
+	font-weight: bold;
+}

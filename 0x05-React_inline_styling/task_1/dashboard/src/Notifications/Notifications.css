@@ -1,0 +1,10 @@
+
+
+
+li[data-priority-type="default"] {
+	color: blue;
+}
+
+li[data-priority-type="urgent"] {
+	color: red;
+}

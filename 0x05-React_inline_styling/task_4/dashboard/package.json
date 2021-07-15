@@ -1,0 +1,52 @@
+{
+	"name": "dashboard",
+	"version": "0.1.0",
+	"description": "",
+	"dependencies": {
+		"@testing-library/jest-dom": "^5.11.9",
+		"@testing-library/react": "^11.2.5",
+		"@testing-library/user-event": "^12.7.1",
+		"aphrodite": "^2.4.0",
+		"clean-webpack-plugin": "^3.0.0",
+		"css-loader": "^5.0.2",
+		"file-loader": "^6.2.0",
+		"image-webpack-loader": "^7.0.1",
+		"imagemin-gifsicle": "^7.0.0",
+		"react": "^16.14.0",
+		"react-dom": "^16.14.0",
+		"sinon": "^10.0.0",
+		"sinon-chai": "^3.6.0",
+		"style-loader": "^2.0.0"
+	},
+	"scripts": {
+		"start": "webpack serve --mode development --config config/webpack.config.js",
+		"test": "jest",
+		"test-watch": "jest --watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.12.16",
+		"@babel/preset-env": "^7.13.15",
+		"@babel/preset-react": "^7.13.13",
+		"babel-loader": "^8.2.2",
+		"chai": "^4.3.0",
+		"enzyme": "^3.11.0",
+		"enzyme-adapter-react-16": "^1.15.6",
+		"enzyme-to-json": "^3.6.1",
+		"html-webpack-plugin": "^5.1.0",
+		"identity-obj-proxy": "^3.0.0",
+		"jest": "^26.6.3",
+		"jest-transform-stub": "^2.0.0",
+		"webpack": "^5.36.1",
+		"webpack-cli": "^4.5.0",
+		"webpack-dev-server": "^3.11.2"
+	},
+	"jest": {
+		"moduleNameMapper": {
+			".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
+			"\\.(css|less)$": "identity-obj-proxy"
+		}
+	}
+}
