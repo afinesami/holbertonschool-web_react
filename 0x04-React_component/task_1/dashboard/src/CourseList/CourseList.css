@@ -1,0 +1,15 @@
+thead tr:first-of-type th {
+    text-align: center;
+  }
+thead > tr > td, th {
+	border-bottom: 2px solid #d3d3d3;
+    text-align: left;
+
+}
+
+#CourseList {
+	margin: 20px auto;
+	width: 85%;
+	border: 1px solid #d3d3d3;
+}
+

@@ -1,0 +1,13 @@
+.App-header {
+display: flex;
+flex-direction: row;
+justify-content: left;
+height: 200px;
+border-bottom: 3px solid var(--hred);
+}
+
+.App-header h1 {
+margin: auto auto auto 0;
+font-weight: bold;
+color: var(--hred);
+}
